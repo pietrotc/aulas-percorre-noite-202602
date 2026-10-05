@@ -1,0 +1,13 @@
+
+/* Hashtag invoca id */
+#container {
+    background-color: antiquewhite;
+}
+/* Ponto invoca classe */
+.quadrados {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 2px dashed black;
+    border-radius: 50%;
+}

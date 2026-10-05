@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: rebeccapurple;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 75px;
+}
+
+#foto-perfil {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    margin-right: 8px;
+}
+
+#usuario {
+    display: flex;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+a {
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none;
+    /* text-decoration: none remove o sublinhado do link ou quaisquer outras decorações que uma tag textul possa ter */
+    padding-left: 20px;
+
+}
+
+#nome-usuario {
+    font-family: "Archivo Black", sans-serif;
+}
+ 
+#header-nav {
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   justify-content: space-around;
+}
+
+footer {
+    background-color: black;
+    height: 400px;
+}
+
+#direitos {
+    color: rebeccapurple;
+    font-size: 30px;
+}
+
